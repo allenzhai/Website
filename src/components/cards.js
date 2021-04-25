@@ -31,7 +31,6 @@ const Cards = props =>{
 						<p className="card-text"><small>React, Javascript, Travis, Heroku, Jest, Sonarcloud</small></p>
 					</div>
 				</a>
-				<div className="card-group">
 				<a className="card" id="project" href="https://github.com/allenzhai/HealthBot" target = "_blank" rel="noopener noreferrer">
 				<img className="card-img" src={discordImg} alt="" />
 					<div className="card-img-overlay">
@@ -42,6 +41,7 @@ const Cards = props =>{
 				</a>
 			</div>
 			{/* Row 2*/}
+			<div className="card-group">
 				<a className="card" id="project" href="https://github.com/allenzhai/Remind-Me" target = "_blank" rel="noopener noreferrer">
 					<img className="card-img" src={remindImg} alt="" />
 					<div className="card-img-overlay">
