@@ -2,8 +2,9 @@ import React from 'react';
 import websiteImg from "../images/website.png";
 import worldImg from "../images/203.png";
 import remindImg from "../images/remind.png";
-import tttImg from "../images/TTT.png";
-import toolsImg from "../images/tools.png";
+import discordImg from "../images/discord.png";
+import robinImg from "../images/robin.png";
+import psychifyIMG from "../images/psychify.png";
 
 
 const Cards = props =>{
@@ -30,7 +31,27 @@ const Cards = props =>{
 						<p className="card-text"><small>Java</small></p>
 					</div>
 				</a>
-				<a className="card" id="projecy" href="https://github.com/allenzhai/Remind-Me" target = "_blank" rel="noopener noreferrer">
+				<a className="card" id="project" href="https://github.com/allenzhai/Psychify" target = "_blank" rel="noopener noreferrer">
+					<img className="card-img" src={psychifyIMG} alt="" />
+					<div className="card-img-overlay">
+						<h5 className="card-title">Psychify</h5>
+						<p className="card-text">Worked with a team and Psychology students to produce user stories and implemented an online version of DSM-V.</p>
+						<p className="card-text">Managed C.I through Travis and</p>
+						<p className="card-text"><small>React, Javascript, Travis, Heroku, Jest, Sonarcloud</small></p>
+					</div>
+				</a>
+			</div>
+			{/* Row 2*/}
+			<div className="card-group">
+				<a className="card" id="project" href="https://github.com/allenzhai/HealthBot" target = "_blank" rel="noopener noreferrer">
+				<img className="card-img" src={discordImg} alt="" />
+					<div className="card-img-overlay">
+						<h5 className="card-title">Discord Health Bot</h5>
+						<p className="card-text">Event driven bot that sends healthy reminders to a group of unhealthy gamers in a discord channel </p>
+						<p className="card-text"><small>Java, JDA, Discord</small></p>
+					</div>
+				</a>
+				<a className="card" id="project" href="https://github.com/allenzhai/Remind-Me" target = "_blank" rel="noopener noreferrer">
 					<img className="card-img" src={remindImg} alt="" />
 					<div className="card-img-overlay">
 						<h5 className="card-title">REMIND ME</h5>
@@ -39,27 +60,12 @@ const Cards = props =>{
 						<p className="card-text"><small>Swift, Firebase</small></p>
 					</div>
 				</a>
-			</div>
-
-			{/* Row 2*/}
-			<div className="card-group">
-				<a className="card" id="project" href="https://github.com/allenzhai/TicTacToe" target = "_blank" rel="noopener noreferrer">
-				<img className="card-img" src={tttImg} alt="" />
+				<a className="card" id="project" href="https://github.com/allenzhai/Robin-Discord-Assistant" target = "_blank" rel="noopener noreferrer">
+					<img className="card-img" src={robinImg} alt="" />
 					<div className="card-img-overlay">
-						<h5 className="card-title">UNBEATABLE TIC TAC TOE</h5>
-						<p className="card-text">Created a G.U.I using PyQt 5</p>
-						<p className="card-text"> Learned and implemented the Minimax algorithm to make the best possible move for each turn</p>
-						<p className="card-text"><small>Python, PyQt</small></p>
-					</div>
-				</a>
-				<a className="card" id="project" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank" rel="noopener noreferrer">
-					<img className="card-img" src={toolsImg} alt="" />
-					<div className="card-img-overlay">
-					</div>
-				</a>
-				<a className="card" id="project" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank" rel="noopener noreferrer">
-					<img className="card-img" src={toolsImg} alt="" />
-					<div className="card-img-overlay">
+						<h5 className="card-title">Robin Discord Assitant</h5>
+						<p className="card-text">Created RESTful backend to existing API for Github API calls. Used this backend to create Robin over Discord platform along with unit tests. </p>
+						<p className="card-text"><small>Javascript, Discord.js, Router, Heroku</small></p>
 					</div>
 				</a>
 			</div>

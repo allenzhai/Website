@@ -10,7 +10,8 @@ class AboutMe extends Component {
 
 					</p>
 					<p className="card" id="aboutMeCards2">
-							<p className = 'pStyle4'> A goal-oriented undergraduate with proven skills in Python, Java, and C,seeking to contribute impactful ideas and solutions as a software engineer. </p>
+							<p className = 'pStyle4'> I am currently a senior at Cal Poly SLO and about to complete my bachelors in computer science. 
+							I enjoy learning and tackling new challenges head on with a plan. In my free time, I play Valorant and Teamfight Tactics. </p>
 							<p className = 'pStyle5'> Computer Language Skills: C, Java, Python, HTML, CSS, JavaScript </p>
 							<p className = 'pStyle5'> Frameworks: PyQt, React </p>
 							<div className = 'btn'>

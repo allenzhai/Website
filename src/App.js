@@ -8,16 +8,16 @@ import  './App.css';
 
 function App() {
     return (
-                <React.Fragment>
-                    <div className = 'all'>
-                        <Header/>
-                        <AboutMe />
-                        <div className="row1">
-                            <Card/>
-                        </div>
-                        <Foot/>
-                    </div>
-                </React.Fragment>
+        <React.Fragment>
+            <div className = 'all'>
+                <Header/>
+                <AboutMe />
+                <div className="row1">
+                    <Card/>
+                </div>
+                <Foot/>
+            </div>
+        </React.Fragment>
     );
 }
 
