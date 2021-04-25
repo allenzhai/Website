@@ -14,21 +14,12 @@ const Cards = props =>{
 
 			{/* Row 1*/}
 			<div className="card-group">
-				<a className="card" id="project" href="https://github.com/allenzhai/Website" target = "_blank" rel="noopener noreferrer">
-				<img className="card-img" src={websiteImg} alt="" />
+				<a className="card" id="project" href="https://github.com/allenzhai/Robin-Discord-Assistant" target = "_blank" rel="noopener noreferrer">
+					<img className="card-img" src={robinImg} alt="" />
 					<div className="card-img-overlay">
-						<h5 className="card-title">PERSONAL WEBSITE</h5>
-						<p className="card-text">Designed and created an accessible portfolio using Bootstrap and React to display my personal projects and resume. </p>
-						<p className="card-text"><small>HTML, CSS, JavaScript, React, Bootstrap</small></p>
-					</div>
-				</a>
-				<a className="card" id="project" href="https://github.com/allenzhai/Small-World-" target = "_blank" rel="noopener noreferrer">
-					<img className="card-img" src={worldImg} alt="" />
-					<div className="card-img-overlay">
-						<h5 className="card-title">SMALL WORLD</h5>
-						<p className="card-text">Created custom model images and formulated cohesive classes for smooth interactions between characters. </p>
-						<p className="card-text"> Changed inital Single-Step pathing algorithm into A* pathing to make characters move smarter </p>
-						<p className="card-text"><small>Java</small></p>
+						<h5 className="card-title">Robin Discord Assitant</h5>
+						<p className="card-text">Created RESTful backend to existing API for Github API calls. Used this backend to create Robin over Discord platform along with unit tests. </p>
+						<p className="card-text"><small>Javascript, Discord.js, Router, Heroku</small></p>
 					</div>
 				</a>
 				<a className="card" id="project" href="https://github.com/allenzhai/Psychify" target = "_blank" rel="noopener noreferrer">
@@ -40,9 +31,7 @@ const Cards = props =>{
 						<p className="card-text"><small>React, Javascript, Travis, Heroku, Jest, Sonarcloud</small></p>
 					</div>
 				</a>
-			</div>
-			{/* Row 2*/}
-			<div className="card-group">
+				<div className="card-group">
 				<a className="card" id="project" href="https://github.com/allenzhai/HealthBot" target = "_blank" rel="noopener noreferrer">
 				<img className="card-img" src={discordImg} alt="" />
 					<div className="card-img-overlay">
@@ -51,6 +40,8 @@ const Cards = props =>{
 						<p className="card-text"><small>Java, JDA, Discord</small></p>
 					</div>
 				</a>
+			</div>
+			{/* Row 2*/}
 				<a className="card" id="project" href="https://github.com/allenzhai/Remind-Me" target = "_blank" rel="noopener noreferrer">
 					<img className="card-img" src={remindImg} alt="" />
 					<div className="card-img-overlay">
@@ -60,12 +51,21 @@ const Cards = props =>{
 						<p className="card-text"><small>Swift, Firebase</small></p>
 					</div>
 				</a>
-				<a className="card" id="project" href="https://github.com/allenzhai/Robin-Discord-Assistant" target = "_blank" rel="noopener noreferrer">
-					<img className="card-img" src={robinImg} alt="" />
+				<a className="card" id="project" href="https://github.com/allenzhai/Small-World-" target = "_blank" rel="noopener noreferrer">
+					<img className="card-img" src={worldImg} alt="" />
 					<div className="card-img-overlay">
-						<h5 className="card-title">Robin Discord Assitant</h5>
-						<p className="card-text">Created RESTful backend to existing API for Github API calls. Used this backend to create Robin over Discord platform along with unit tests. </p>
-						<p className="card-text"><small>Javascript, Discord.js, Router, Heroku</small></p>
+						<h5 className="card-title">SMALL WORLD</h5>
+						<p className="card-text">Created custom model images and formulated cohesive classes for smooth interactions between characters. </p>
+						<p className="card-text"> Changed inital Single-Step pathing algorithm into A* pathing to make characters move smarter </p>
+						<p className="card-text"><small>Java</small></p>
+					</div>
+				</a>
+				<a className="card" id="project" href="https://github.com/allenzhai/Website" target = "_blank" rel="noopener noreferrer">
+				<img className="card-img" src={websiteImg} alt="" />
+					<div className="card-img-overlay">
+						<h5 className="card-title">PERSONAL WEBSITE</h5>
+						<p className="card-text">Designed and created an accessible portfolio using Bootstrap and React to display my personal projects and resume. </p>
+						<p className="card-text"><small>HTML, CSS, JavaScript, React, Bootstrap</small></p>
 					</div>
 				</a>
 			</div>
